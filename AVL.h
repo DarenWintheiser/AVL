@@ -3,7 +3,7 @@
 
 typedef int KEY_TYPE;
 
-/* no parent pointer */
+/# no parent pointer */
 typedef struct AVL{
 	KEY_TYPE key;
 	int height;
@@ -33,3 +33,4 @@ void InOrder(AVL* root);
 
 
 #endif
+ 
